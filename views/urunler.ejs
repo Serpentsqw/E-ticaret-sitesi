@@ -1,0 +1,47 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<title>E-Ticaret Sitesi | Ürünler</title>
+</head>
+<body>
+  <%- include("../views/partials/navbar") %>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+  <img class="logo" src="https://cdn.glitch.global/717bd098-dff6-40bc-b95b-2319f06b2bcf/shop.png?v=1690897540751">
+  </center>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="konu">
+  <h1 style="text-align: center;">Rewus Shop</h1>
+  <br>
+  <br>
+  <p style="text-align: center;"> Hoşgeldiniz Değerli Zümremiz Aşşağıda Ürünlerimizin İsim ve Fiyatı Belirtilmiştir </p>
+  <br>
+  <br>
+  <br>
+  <% products.forEach(product => { %>
+    <ul>
+      <li>
+      <h3><%= product.ad %></h3>
+      <p>Fiyat: <%= product.fiyat %> TL</p>
+      </li>
+    </ul>
+  <% }); %>
+  </div>
+</body>
+<footer>
+E-Ticaret Sitesi Altyapısı
+</footer>
