@@ -1,0 +1,23 @@
+{
+  "name": "E-ticaret-sitesi",
+  "version": "0.1.0",
+  "description": "Basit Eticaret sitesi",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch"
+  ]
+}
