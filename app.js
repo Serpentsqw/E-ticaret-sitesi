@@ -1,4 +1,4 @@
-const express = require("express")
+lpconst express = require("express")
 const path = require("path")
 const ejs = require("ejs")
 const app = express()
@@ -30,3 +30,4 @@ app.get("/sss", (req, res) => {
 /////////////////
 
 // Port dinleme şeyisi //
+app.listen(3000)
